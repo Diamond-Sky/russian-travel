@@ -1,7 +1,18 @@
-.page {
+body {
+    margin: 0;
     background-color: #2A2C2F;
-    width: 100%;
-    height: 100%;
+}
+.page {
+    outline: auto;
+    max-width: 1280px;
+    height: 100vh;
     margin: 0 auto;
+    padding: 28px 48px 24px;
     font-family: Inter;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   text-rendering: optimizeLegibility;
 }
