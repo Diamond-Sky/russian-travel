@@ -1,0 +1,9 @@
+.places {
+    outline: auto;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: auto;
+}
