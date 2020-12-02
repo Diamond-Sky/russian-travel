@@ -2,13 +2,32 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-    max-width: 1184px;
-    background-image: url(../../images/cover.png);
-    background-repeat: no-repeat;
     position: relative;
-    margin: 0 auto;
+    align-items: center;
+    min-height: 740px;
+    min-width: 100%;
+    background-image: url(../../images/cover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     object-fit: cover;
-    color: #FFF;
+    margin: 92px auto;
+    z-index: 1;
+}
+
+.cover::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 350ms ease;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
 }

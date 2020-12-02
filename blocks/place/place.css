@@ -1,5 +1,4 @@
 .place {
-    outline: 1px solid #ffffff;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
