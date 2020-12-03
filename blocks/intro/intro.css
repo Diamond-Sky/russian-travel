@@ -1,6 +1,12 @@
 .intro {
     color: #fff;
     max-width: 690px;
-    margin: 0 11.5%;
+    margin: 0 148px;
     padding: 93px 0 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 0 48px;
+    }
 }

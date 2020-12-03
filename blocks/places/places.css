@@ -5,3 +5,9 @@
     flex-wrap: wrap;
     margin: 0 148px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+        margin: 0 48px;
+    }
+}
