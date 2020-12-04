@@ -7,5 +7,10 @@
     font-size: 18px;
     line-height: 1.2;
     cursor: pointer;
-    
+    opacity: 1;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+  transition: opacity 300ms ease;
 }
