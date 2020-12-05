@@ -17,8 +17,6 @@
 }
 
 .header__lang-link:hover {
-  text-decoration: underline;
-  transition: text-decoration 300ms ease;
   opacity: 0.8;
   transition: opacity 300ms ease;
 }
