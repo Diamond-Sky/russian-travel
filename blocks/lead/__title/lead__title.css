@@ -4,7 +4,7 @@
     font-size: 96px;
     line-height: 1.044;
     max-width: 720px;
-    max-height: 200px;
+    
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -23,6 +23,6 @@
         font-size: 40px;
         line-height: 1.10;
         max-width: 280px;
-        max-height: 88px;
+        
     }
 }
