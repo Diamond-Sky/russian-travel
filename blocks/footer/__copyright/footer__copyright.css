@@ -6,13 +6,14 @@
     line-height: 1.2;
     color: #FFFFFF;
     margin: 0;
+    text-align: right;
     
 }
 
 @media screen and (max-width: 320px) {
     .footer__copyright {
         margin-top: 48px;
-        
+        text-align: left;
     }
 }
 /*помоги*/
