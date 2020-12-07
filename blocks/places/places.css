@@ -18,7 +18,12 @@
         margin: 0 24px;
     }
 }
-
+@media screen and (max-width: 700px) {
+    .places {
+        margin: 0;
+        align-items: center;
+    }
+}
 @media screen and (max-width: 320px) {
     .places {
         margin: 0;

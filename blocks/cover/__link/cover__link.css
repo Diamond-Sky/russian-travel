@@ -9,7 +9,7 @@
     min-width: 100%;
     background-image: url('../../../images/cover-trains.jpg');
     background-repeat: space;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     object-fit: cover;
     z-index: 1;
